@@ -1,0 +1,18 @@
+.img-background{
+    height: 600px;
+    width: 600px;
+}
+
+nav.scroll{
+    background-color: white;
+    color: black;
+}
+
+.jumbotron-heading{
+    letter-spacing: 10px;
+}
+
+.para{
+    line-height: 10px;
+    color: blue;
+}
