@@ -1,18 +1,35 @@
-.img-background{
-    height: 600px;
-    width: 600px;
-}
-
-nav.scroll{
-    background-color: white;
-    color: black;
-}
-
 .jumbotron-heading{
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
-.para{
-    line-height: 10px;
-    color: blue;
+.navbar .navbar-nav .nav-item .nav-link{
+    transition: .6s;
+    border-radius: 3px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+.fa{
+    transition: .3s;
+}
+
+.fa:hover{
+    color:#585858;
+}
+
+.page-footer{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+#fixed{
+    background: url(images/background.jpg) no-repeat center center fixed;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    background-size: cover;
+    display: table;
 }

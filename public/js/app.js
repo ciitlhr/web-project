@@ -59005,17 +59005,12 @@ var Carousel = function Carousel() {
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "div",
         { className: "carousel-item active" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "d-block w-100", src: "images/bloggingimage2.jpg", alt: "First slide", width: "100%", height: "700px" })
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "d-block w-100 img-responsive", src: "images/bloggingimage2.jpg", alt: "First slide", width: "100%", height: "700px" })
       ),
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
         "div",
         { className: "carousel-item" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "d-block w-100", src: "images/blogs.jpg", alt: "Second slide", width: "100%", height: "700px" })
-      ),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "div",
-        { className: "carousel-item" },
-        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "d-block w-100", src: "images/blogging2.jpg", alt: "Third slide", width: "100%", height: "700px" })
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", { className: "d-block w-100 img-responsive", src: "images/blogging2.jpg", alt: "Second slide", width: "100%", height: "700px" })
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(

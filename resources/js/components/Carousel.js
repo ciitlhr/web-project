@@ -5,13 +5,10 @@ const Carousel = () =>(
                 
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img className="d-block w-100" src="images/bloggingimage2.jpg" alt="First slide" width="100%" height="700px"></img>
+                    <img className="d-block w-100 img-responsive" src="images/bloggingimage2.jpg" alt="First slide" width="100%" height="700px"></img>
                   </div>
                   <div className="carousel-item">
-                    <img className="d-block w-100" src="images/blogs.jpg" alt="Second slide" width="100%" height="700px"></img>
-                </div>
-                  <div className="carousel-item">
-                    <img className="d-block w-100" src="images/blogging2.jpg" alt="Third slide" width="100%" height="700px"></img>
+                    <img className="d-block w-100 img-responsive" src="images/blogging2.jpg" alt="Second slide" width="100%" height="700px"></img>
                   </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
