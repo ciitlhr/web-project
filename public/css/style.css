@@ -28,8 +28,45 @@
 #fixed{
     background: url(images/background.jpg) no-repeat center center fixed;
     width: 100%;
-    height: 60%;
+    height: 60vh;
     position: relative;
     background-size: cover;
-    display: table;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.v-header{
+    height: 100vh;
+    display: flex;
+    align-items: center; 
+}
+
+.video-wrap{
+    position: absolute;
+    width:100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.header-overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background: #225470;
+    z-index: 1;
+    opacity: 0.85;
+}
+
+.header-content{
+    z-index: 2;
+}
+
+.para{
+    color: white;
+}
+
+.heading{
+    color: white;
 }
